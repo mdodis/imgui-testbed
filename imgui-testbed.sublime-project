@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build - Debug",
+			"shell_cmd": "$folder/scripts/windows/build.bat -a",
+			"file_regex": "^(.*)\\((\\d+)\\)\\s*:\\s*(?:fatal\\s+error|error|warning)\\s+[A-Z0-9]+:.*$",
+			"syntax": "msvcbuild.sublime-syntax",
+
+		}
+	],
+}
