@@ -41,3 +41,4 @@
 *.dwo
 imgui.ini
 *.sublime-workspace
+*.rdi
